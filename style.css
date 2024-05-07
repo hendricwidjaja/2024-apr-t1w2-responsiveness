@@ -1,0 +1,12 @@
+/* Default style for small screens and anything not caught by media */
+body {
+    background-color: lightblue;
+}
+
+/* Styled for screens 600px wide or more. Covers most mobile screens (600px) */
+/* Can also do @media-screen and (width > 600px) if this makes more sense */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: palegreen;
+    }
+}
